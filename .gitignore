@@ -3,10 +3,8 @@ create_all_pages.py
 generate_pages.py
 index-single-page-backup.html
 
-# Documentation (optional - remove these lines if you want to include docs)
-PAGES_STRUCTURE.md
-WEBSITE_FILES_LIST.md
-DEPLOYMENT_FILES.md
+# Documentation files (all markdown files excluded)
+*.md
 
 # OS files
 .DS_Store

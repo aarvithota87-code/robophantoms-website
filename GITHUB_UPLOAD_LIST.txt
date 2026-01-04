@@ -53,7 +53,6 @@ Images - Sponsors/ (7 files):
 
 OPTIONAL FILES (Recommended):
 -----------------------------
-  - README.md
   - .gitignore
 
 DO NOT UPLOAD:
@@ -61,8 +60,6 @@ DO NOT UPLOAD:
   - create_all_pages.py
   - generate_pages.py
   - index-single-page-backup.html
-  - PAGES_STRUCTURE.md
-  - WEBSITE_FILES_LIST.md
-  - DEPLOYMENT_FILES.md
+  - *.md (all markdown documentation files)
 
 TOTAL: ~34-39 files
