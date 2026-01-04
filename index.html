@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>RoboPhantoms | FTC Team 23954 | First Tech Challenge</title>
+    <meta name="title" content="RoboPhantoms | FTC Team 23954 | First Tech Challenge">
+    <meta name="description" content="RoboPhantoms is a third-year First Tech Challenge team (FTC 23954) building the future of robotics, one competition at a time. Learn about our team, robot, competitions, and outreach.">
+    <meta name="keywords" content="FTC, First Tech Challenge, Robotics, Team 23954, RoboPhantoms, STEM, Robotics Competition, FTC Team">
+    <meta name="author" content="RoboPhantoms FTC Team 23954">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://robophantoms.com/">
+    <meta property="og:title" content="RoboPhantoms | FTC Team 23954">
+    <meta property="og:description" content="A third-year First Tech Challenge team building the future of robotics, one competition at a time.">
+    <meta property="og:image" content="RoboPhantomLogo.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://robophantoms.com/">
+    <meta property="twitter:title" content="RoboPhantoms | FTC Team 23954">
+    <meta property="twitter:description" content="A third-year First Tech Challenge team building the future of robotics, one competition at a time.">
+    <meta property="twitter:image" content="RoboPhantomLogo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="RoboPhantomLogo.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "RoboPhantoms",
+      "alternateName": "FTC Team 23954",
+      "url": "https://robophantoms.com",
+      "logo": "RoboPhantomLogo.png",
+      "description": "A third-year First Tech Challenge team building the future of robotics, one competition at a time.",
+      "email": "robophantoms@gmail.com",
+      "foundingDate": "2022",
+      "sameAs": [
+        "https://www.youtube.com/@RoboPhantomsFTC",
+        "https://www.instagram.com/robophantoms23954"
+      ],
+      "memberOf": {
+        "@type": "Organization",
+        "name": "FIRST Tech Challenge"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html" class="logo-link">
+                    <img src="RoboPhantomLogo.png" alt="RoboPhantoms Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1>RoboPhantoms</h1>
+                        <span class="team-number">FTC 23954</span>
+                    </div>
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="competitions.html" class="nav-link">Competitions</a></li>
+                <li><a href="outreach.html" class="nav-link">Outreach</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="sponsors.html" class="nav-link">Sponsors</a></li>
+                <li><a href="join.html" class="nav-link">Join Us</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" onclick="changeLanguage('en')" id="lang-en">EN</button>
+                <button class="lang-btn" onclick="changeLanguage('es')" id="lang-es">ES</button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-logo-container">
+                <img src="RoboPhantomLogo.png" alt="RoboPhantoms Logo" class="hero-logo">
+            </div>
+            <h1 class="hero-title">WE ARE THE <span class="highlight">ROBO PHANTOMS</span></h1>
+            <p class="hero-subtitle">First Tech Challenge Team 23954</p>
+            <p class="hero-description">A third-year team building the future of robotics, one competition at a time.</p>
+            <div class="hero-buttons">
+                <a href="team.html" class="btn btn-primary">Meet Our Team</a>
+                <a href="robot.html" class="btn btn-secondary">See Our Robot</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.youtube.com/@RoboPhantomsFTC" target="_blank" class="social-link" aria-label="YouTube">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/robophantoms23954" target="_blank" class="social-link" aria-label="Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+                <a href="mailto:robophantoms@gmail.com" class="social-link" aria-label="Email">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Statement Section -->
+    <section class="section mission-section">
+        <div class="container">
+            <h2 class="section-title">Our Mission</h2>
+            <div class="mission-content">
+                <div class="mission-card">
+                    <div class="mission-icon">🎯</div>
+                    <h3>Goal</h3>
+                    <p>We strive to reach state competition and beyond, pushing ourselves to build the best robot possible with the best software possible to play the best game possible.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">🚀</div>
+                    <h3>Innovation</h3>
+                    <p>We continuously learn, innovate, and improve our designs, embracing challenges as opportunities to grow and excel in the field of robotics.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">🤝</div>
+                    <h3>Community</h3>
+                    <p>We believe in giving back to our community through outreach programs, inspiring the next generation of engineers, programmers, and innovators.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats Section -->
+    <section class="section stats-preview-section">
+        <div class="container">
+            <h2 class="section-title">Team at a Glance</h2>
+            <div class="team-stats">
+                <div class="stat-item">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Team Members</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Coaches</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Years in FTC</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Passion</div>
+                </div>
+            </div>
+            <div class="cta-buttons" style="text-align: center; margin-top: 2rem;">
+                <a href="team.html" class="btn btn-primary">Learn More About Our Team</a>
+                <a href="competitions.html" class="btn btn-secondary">View Competition Stats</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section id="team" class="section team-section">
+        <div class="container">
+            <h2 class="section-title">Our Team</h2>
+            <p class="section-subtitle">Meet the hardworking individuals behind Robo-Phantoms</p>
+            <div class="team-grid">
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <img src="TeamPictures/HARSH DESAI.png" alt="Harsh Desai" class="member-photo">
+                    </div>
+                    <h3>Harsh Desai</h3>
+                    <p class="member-role">Build</p>
+                    <p class="member-bio">Hello, my name is Harsh Desai. I am 13 years old and go to Quail Valley Middle School. I am in the 8th grade. Some hobbies I have are playing tennis and designing mechanical devices. I have always had a passion for robotics since I always thought it was cool to build robots and compete against other teams. Building while collaborating with your team is a fun process, even if not a lot of fun. I also enjoy the problems we have to maneuver through and how to make our robot better.</p>
+                </div>
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <img src="TeamPictures/DHRUV SHAH.png" alt="Dhruv Shah" class="member-photo">
+                    </div>
+                    <h3>Dhruv Shah</h3>
+                    <p class="member-role">Build / Design</p>
+                    <p class="member-bio">Hello, my name is Dhruv Shah. I am 13 years old. I am in Garcia Middle School in 8th grade. I enjoy learning new things about technology and exploring different items in that field. I always enjoyed robotics and participated in any robotics opportunities at my school. My hobbies include football, tennis, and music. I have learned a lot from FTC and am very glad that I am part of a great team.</p>
+                </div>
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <img src="TeamPictures/KAVIN SANKARAN.png" alt="Kavin Sankaran" class="member-photo">
+                    </div>
+                    <h3>Kavin Sankaran</h3>
+                    <p class="member-role">Head of Software</p>
+                    <p class="member-bio">Hello, my name is Kavin Sankaran. I am 13 years old and go to Macario Garcia Middle School. I am in 7th grade. Some hobbies that I enjoy doing is playing soccer and coding. I have always thought that robotics was cool. Having to build, code, and design is a lot of work, but also a great experience.</p>
+                </div>
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <img src="TeamPictures/KAYAN PATEL.png" alt="Kayan Patel" class="member-photo">
+                    </div>
+                    <h3>Kayan Patel</h3>
+                    <p class="member-role">Design</p>
+                    <p class="member-bio">Hi, my name is Kayan Patel. I'm 15 years old and currently a 10th grader at Stephen F. Austin High School. I'm a Life rank Boy Scout working toward becoming an Eagle Scout. My interest in FTC began with my love for building and designing things, especially with Legos. I also have two cousins who compete in FRC, which inspired me to get involved in robotics. After learning more about it, I started doing robotics at my school and began exploring the world of the First Tech Challenge. Since then, I've gained valuable problem-solving skills and have learned so much through hands-on experience.</p>
+                </div>
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <img src="TeamPictures/AARIN MEHTA.png" alt="Aarin Mehta" class="member-photo">
+                    </div>
+                    <h3>Aarin Mehta</h3>
+                    <p class="member-role">Build</p>
+                    <p class="member-bio">Hello, my name is Aarin Mehta. I am 12 years old, go to Sartartia Middle School, and am in 7th grade. Some of my hobbies are playing the violin, tennis, chess, swimming, and basketball. I am passionate to learn programming languages such as Python, Arduino, and Java. I am inspired to join the FIRST program by spectating FTC competitions. I enjoyed watching robots compete and looking at the various types of robots. In the previous years I have done Destination Imagination and had the opportunity to attend Global Finals. I am very excited to be a part of the Robo Phantoms team.</p>
+                </div>
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <img src="TeamPictures/KRISHAAN DESAI.png" alt="Krishaan Desai" class="member-photo">
+                    </div>
+                    <h3>Krishaan Desai</h3>
+                    <p class="member-role">Program Team</p>
+                    <p class="member-bio">Hello, my name is Krishaan Desai. I am twelve years old and a seventh grader at Sartartia Middle School. I like coding and playing soccer. I was always fascinated with computers. I want to learn more about this space and how I can build on my knowledge while competing against people who share the same interest as me. Learning things that can shape our future is one of the reasons I am interested in robotics and computers. I like programming applications that can help people and improve daily lives.</p>
+                </div>
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <img src="TeamPictures/AARVI THOTA.png" alt="Aarvi Thota" class="member-photo">
+                    </div>
+                    <h3>Aarvi Thota</h3>
+                    <p class="member-role">Outreach</p>
+                    <p class="member-bio">Hi, my name is Aarvi Thota. I'm 12 years old and currently in 7th grade at Sartartia Middle School. My hobbies are playing the violin, volleyball, biking, reading, and doing creative activities like designing presentations on Canva. I enjoy participating in STEM activities and challenges. In the past, I competed in Destination Imagination in both Technical and Engineering challenges, and I've been participating in the Science Fair for the past three years. I'm also part of the Girls Who Code club, where I'm learning new technologies and skills. I'm curious and always want to learn about how to build and program robots. I'm very excited to be part of the Robo Phantoms FTC team.</p>
+                </div>
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <img src="TeamPictures/SANJANA GANGLANI.png" alt="Sanjana Ganglani" class="member-photo">
+                    </div>
+                    <h3>Sanjana Ganglani</h3>
+                    <p class="member-role">Outreach</p>
+                    <p class="member-bio">Hello, my name is Sanjana Ganglani. I'm 12 years old and currently a 7th grader at Sartartia Middle School. My hobbies include playing the viola, volleyball, and reading. From a young age, I've been fascinated by robotics, and I'm eager to continue expanding my knowledge in areas such as coding and engineering through FTC. In previous years, I competed in Destination Imagination, where my team ranked among the top 10 at Global Finals. I have also participated in science fair which allowed me to further explore STEM.</p>
+                </div>
+            </div>
+
+            <!-- Coaches Section -->
+            <div class="coaches-section">
+                <h3 class="coaches-title">Our Coaches</h3>
+                <p class="coaches-subtitle">Guiding and mentoring our team to success</p>
+                <div class="coaches-grid">
+                    <div class="team-member-card coach">
+                        <div class="member-avatar">
+                            <img src="Coaches/Paresh Desai.png" alt="Paresh Desai" class="member-photo">
+                        </div>
+                        <h3>Mr. Paresh Desai</h3>
+                        <p class="member-role">Engineering & Technical Development Coach</p>
+                        <p class="member-bio">Guiding our technical development and engineering excellence</p>
+                    </div>
+                    <div class="team-member-card coach">
+                        <div class="member-avatar">
+                            <img src="Coaches/Tejas Mehta.png" alt="Tejas Mehta" class="member-photo">
+                        </div>
+                        <h3>Mr. Tejas Mehta</h3>
+                        <p class="member-role">Outreach, Operations, and Team Development Coach</p>
+                        <p class="member-bio">Leading outreach initiatives and team growth</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet the Robot Section -->
+    <section id="robot" class="section robot-section">
+        <div class="container">
+            <h2 class="section-title">Meet the Robot</h2>
+            <div class="robot-content">
+                <div class="robot-image-container">
+                    <img src="Robot/Robot.png" alt="RoboPhantoms Robot" class="robot-image" loading="lazy">
+                    <!-- 3D Robot Viewer Placeholder -->
+                    <div class="robot-3d-viewer" id="robot-3d-viewer" style="display: none;">
+                        <div class="viewer-placeholder">
+                            <p>3D Model Viewer</p>
+                            <p class="viewer-note">Integrate with Sketchfab, Three.js, or similar 3D viewer</p>
+                            <button class="btn btn-secondary" onclick="document.getElementById('robot-3d-viewer').style.display='none'; document.querySelector('.robot-image').style.display='block';">View 2D Image</button>
+                        </div>
+                    </div>
+                    <button class="btn-3d-toggle" onclick="toggle3DViewer()" style="display: none;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        View 3D Model
+                    </button>
+                </div>
+                <div class="robot-info">
+                    <h3>Our Latest Creation</h3>
+                    <p>Every year, we design and build a new robot to compete in the First Tech Challenge. Our robot is the result of countless hours of design, iteration, and testing by our dedicated team members.</p>
+                    <div class="robot-specs">
+                        <div class="spec-item">
+                            <h4>Season</h4>
+                            <p>2025-2026</p>
+                        </div>
+                        <div class="spec-item">
+                            <h4>Status</h4>
+                            <p>In Development</p>
+                        </div>
+                        <div class="spec-item">
+                            <h4>Design Focus</h4>
+                            <p>Competition Ready</p>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Robot Evolution Section -->
+    <section id="robot-evolution" class="section evolution-section">
+        <div class="container">
+            <h2 class="section-title">Robot Evolution</h2>
+            <p class="section-subtitle">See how our robots have evolved over three seasons of competition</p>
+            
+            <div class="evolution-timeline">
+                <div class="evolution-item">
+                    <div class="evolution-year">2025-2026</div>
+                    <div class="evolution-content">
+                        <div class="evolution-image">
+                            <img src="Robot/Robot.png" alt="2025-2026 Robot" class="evolution-robot-img" loading="lazy">
+                        </div>
+                        <div class="evolution-details">
+                            <h3>Season 3 Robot</h3>
+                            <p class="evolution-game">[Current Game Name]</p>
+                            <div class="evolution-specs">
+                                <div class="evolution-spec">
+                                    <strong>Key Features:</strong>
+                                    <ul>
+                                        <li>Improved mechanism design</li>
+                                        <li>Enhanced autonomous capabilities</li>
+                                        <li>Optimized for competition strategy</li>
+                                    </ul>
+                                </div>
+                                <div class="evolution-spec">
+                                    <strong>Improvements:</strong>
+                                    <p>Building on lessons learned from previous seasons, this robot represents our most advanced design yet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="evolution-item">
+                    <div class="evolution-year">2024-2025</div>
+                    <div class="evolution-content">
+                        <div class="evolution-image">
+                            <div class="evolution-placeholder">
+                                <svg width="200" height="200" viewBox="0 0 200 200" fill="none">
+                                    <rect width="200" height="200" fill="#f3f4f6"/>
+                                    <rect x="50" y="50" width="100" height="100" stroke="#9ca3af" stroke-width="2" fill="none"/>
+                                    <circle cx="100" cy="100" r="20" fill="#9ca3af" opacity="0.5"/>
+                                </svg>
+                                <p>Add 2024-2025 Robot Image</p>
+                            </div>
+                        </div>
+                        <div class="evolution-details">
+                            <h3>Season 2 Robot</h3>
+                            <p class="evolution-game">[Previous Game Name]</p>
+                            <div class="evolution-specs">
+                                <div class="evolution-spec">
+                                    <strong>Key Features:</strong>
+                                    <ul>
+                                        <li>Refined design from Season 1</li>
+                                        <li>Better reliability and consistency</li>
+                                        <li>Improved programming and sensors</li>
+                                    </ul>
+                                </div>
+                                <div class="evolution-spec">
+                                    <strong>Lessons Learned:</strong>
+                                    <p>This season taught us the importance of robust design and strategic alliance selection.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="evolution-item">
+                    <div class="evolution-year">2023-2024</div>
+                    <div class="evolution-content">
+                        <div class="evolution-image">
+                            <div class="evolution-placeholder">
+                                <svg width="200" height="200" viewBox="0 0 200 200" fill="none">
+                                    <rect width="200" height="200" fill="#f3f4f6"/>
+                                    <rect x="50" y="50" width="100" height="100" stroke="#9ca3af" stroke-width="2" fill="none"/>
+                                    <circle cx="100" cy="100" r="20" fill="#9ca3af" opacity="0.5"/>
+                                </svg>
+                                <p>Add 2023-2024 Robot Image</p>
+                            </div>
+                        </div>
+                        <div class="evolution-details">
+                            <h3>Season 1 Robot</h3>
+                            <p class="evolution-game">[First Game Name]</p>
+                            <div class="evolution-specs">
+                                <div class="evolution-spec">
+                                    <strong>Key Features:</strong>
+                                    <ul>
+                                        <li>Our first competition robot</li>
+                                        <li>Foundation for future designs</li>
+                                        <li>Learning the fundamentals</li>
+                                    </ul>
+                                </div>
+                                <div class="evolution-spec">
+                                    <strong>Foundation:</strong>
+                                    <p>This robot marked the beginning of our FTC journey and established our design philosophy.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Sections -->
+    <section class="section featured-section">
+        <div class="container">
+            <h2 class="section-title">Explore Our Team</h2>
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <img src="Sponsors/SponsorUS.png" alt="Our Sponsors" loading="lazy">
+                    </div>
+                    <div class="featured-content">
+                        <h3>Sponsors</h3>
+                        <p>Thank you to our amazing sponsors who support our team and help us compete at the highest level.</p>
+                        <a href="sponsors.html" class="btn btn-primary">View Sponsors</a>
+                    </div>
+                </div>
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <div class="featured-placeholder">
+                            <svg width="200" height="200" viewBox="0 0 200 200" fill="none">
+                                <rect width="200" height="200" fill="#f3f4f6"/>
+                                <path d="M50 50L150 50L150 150L50 150Z" stroke="#9ca3af" stroke-width="2" fill="none"/>
+                                <circle cx="100" cy="100" r="30" fill="#9ca3af" opacity="0.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="featured-content">
+                        <h3>Competitions</h3>
+                        <p>View our competition statistics, history, and achievements across all three seasons.</p>
+                        <a href="competitions.html" class="btn btn-primary">View Stats</a>
+                    </div>
+                </div>
+                <div class="featured-card">
+                    <div class="featured-image">
+                        <div class="featured-placeholder">
+                            <svg width="200" height="200" viewBox="0 0 200 200" fill="none">
+                                <rect width="200" height="200" fill="#f3f4f6"/>
+                                <path d="M50 50L150 50L150 150L50 150Z" stroke="#9ca3af" stroke-width="2" fill="none"/>
+                                <circle cx="100" cy="100" r="30" fill="#9ca3af" opacity="0.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="featured-content">
+                        <h3>Outreach</h3>
+                        <p>Learn about our community outreach initiatives and how we inspire the next generation.</p>
+                        <a href="outreach.html" class="btn btn-primary">See Our Impact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="RoboPhantomLogo.png" alt="RoboPhantoms Logo" class="footer-logo-img">
+                    </div>
+                    <h3>RoboPhantoms</h3>
+                    <p>First Tech Challenge Team 23954</p>
+                    <p>Building the future of robotics, one competition at a time.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="robot.html">Meet the Robot</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="competitions.html">Competitions</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="sponsors.html">Sponsors</a></li>
+                        <li><a href="join.html">Join Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="footer-social">
+                        <a href="mailto:robophantoms@gmail.com" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+                            </svg>
+                            <span>Email</span>
+                        </a>
+                        <a href="https://www.youtube.com/@RoboPhantomsFTC" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                            <span>YouTube</span>
+                        </a>
+                        <a href="https://www.instagram.com/robophantoms23954" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 RoboPhantoms FTC Team 23954. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

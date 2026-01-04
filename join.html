@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us | RoboPhantoms FTC Team 23954</title>
+    <meta name="description" content="Join the RoboPhantoms team and application process">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="RoboPhantomLogo.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html" class="logo-link">
+                    <img src="RoboPhantomLogo.png" alt="RoboPhantoms Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1>RoboPhantoms</h1>
+                        <span class="team-number">FTC 23954</span>
+                    </div>
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="competitions.html" class="nav-link">Competitions</a></li>
+                <li><a href="outreach.html" class="nav-link">Outreach</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="sponsors.html" class="nav-link">Sponsors</a></li>
+                <li><a href="join.html" class="nav-link active">Join Us</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" onclick="changeLanguage('en')" id="lang-en">EN</button>
+                <button class="lang-btn" onclick="changeLanguage('es')" id="lang-es">ES</button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+<div class="page-header" style="padding: 120px 0 40px; background: var(--gray-light); text-align: center;"><h1>Join Our Team</h1></div>
+<section id="join" class="section join-section">
+        <div class="container">
+            <div class="join-content">
+                <div class="join-text">
+                    <h3>Become a RoboPhantom</h3>
+                    <p>Are you passionate about robotics, programming, engineering, or simply want to be part of an amazing team? We're always looking for dedicated individuals who share our enthusiasm for innovation and competition.</p>
+                    <p>As a member of RoboPhantoms, you'll have the opportunity to:</p>
+                    <ul class="join-benefits">
+                        <li>Design and build competition robots</li>
+                        <li>Develop your programming and engineering skills</li>
+                        <li>Compete in FIRST Tech Challenge events</li>
+                        <li>Participate in community outreach activities</li>
+                        <li>Work with a supportive team of mentors and peers</li>
+                        <li>Build lasting friendships and professional connections</li>
+                    </ul>
+                </div>
+                <div class="join-image">
+                    <div class="join-placeholder">
+                        <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="50" y="50" width="200" height="200" rx="20" fill="currentColor" opacity="0.2"/>
+                            <circle cx="150" cy="120" r="30" fill="currentColor" opacity="0.4"/>
+                            <rect x="100" y="160" width="100" height="80" rx="10" fill="currentColor" opacity="0.4"/>
+                            <text x="150" y="270" text-anchor="middle" fill="currentColor" font-size="18">Join Us!</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Application Process -->
+            <div class="application-process">
+                <h3 class="subsection-title">Application Process</h3>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Submit Application</h4>
+                            <p>Fill out our online application form below. Tell us about yourself, your interests, and why you want to join RoboPhantoms.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Interview</h4>
+                            <p>Selected candidates will be invited for an interview with our team leaders and coaches. This helps us get to know you better.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Trial Period</h4>
+                            <p>New members participate in a trial period where you'll work on projects and learn about our team culture and processes.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Official Membership</h4>
+                            <p>Upon successful completion of the trial period, you'll become an official RoboPhantom team member!</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="application-form-section">
+                    <h4>Application Form</h4>
+                    <form class="application-form" id="application-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="app-name">Full Name *</label>
+                                <input type="text" id="app-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="app-email">Email *</label>
+                                <input type="email" id="app-email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="app-grade">Grade Level *</label>
+                                <select id="app-grade" name="grade" required>
+                                    <option value="">Select Grade</option>
+                                    <option value="6">6th Grade</option>
+                                    <option value="7">7th Grade</option>
+                                    <option value="8">8th Grade</option>
+                                    <option value="9">9th Grade</option>
+                                    <option value="10">10th Grade</option>
+                                    <option value="11">11th Grade</option>
+                                    <option value="12">12th Grade</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="app-school">School *</label>
+                                <input type="text" id="app-school" name="school" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="app-interests">Areas of Interest *</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="build"> Build/Mechanical
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="programming"> Programming
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="design"> Design/CAD
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="outreach"> Outreach
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="social"> Social Media
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="app-experience">Previous Robotics/STEM Experience</label>
+                            <textarea id="app-experience" name="experience" rows="4" placeholder="Tell us about any previous experience with robotics, programming, engineering, or STEM activities..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="app-why">Why do you want to join RoboPhantoms? *</label>
+                            <textarea id="app-why" name="why" rows="4" required placeholder="Share your motivation and what you hope to gain from being part of our team..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="newsletter" class="section newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Stay Updated</h2>
+                    <p>Subscribe to our newsletter to receive updates about competitions, team achievements, outreach events, and more!</p>
+                    <ul class="newsletter-benefits">
+                        <li>✓ Competition recaps and results</li>
+                        <li>✓ Build season updates</li>
+                        <li>✓ Outreach event announcements</li>
+                        <li>✓ Team achievements and milestones</li>
+                    </ul>
+                </div>
+                <div class="newsletter-form-container">
+                    <form class="newsletter-form" id="newsletter-form">
+                        <div class="form-group">
+                            <label for="newsletter-name">Name</label>
+                            <input type="text" id="newsletter-name" name="name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="newsletter-email">Email *</label>
+                            <input type="email" id="newsletter-email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                        <p class="newsletter-privacy">We respect your privacy. Unsubscribe at any time.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="RoboPhantomLogo.png" alt="RoboPhantoms Logo" class="footer-logo-img">
+                    </div>
+                    <h3>RoboPhantoms</h3>
+                    <p>First Tech Challenge Team 23954</p>
+                    <p>Building the future of robotics, one competition at a time.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="robot.html">Meet the Robot</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="competitions.html">Competitions</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="sponsors.html">Sponsors</a></li>
+                        <li><a href="join.html">Join Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="footer-social">
+                        <a href="mailto:robophantoms@gmail.com" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+                            </svg>
+                            <span>Email</span>
+                        </a>
+                        <a href="https://www.youtube.com/@RoboPhantomsFTC" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                            <span>YouTube</span>
+                        </a>
+                        <a href="https://www.instagram.com/robophantoms23954" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 RoboPhantoms FTC Team 23954. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="js/nav-footer.js"></script>
+</body>
+</html>
